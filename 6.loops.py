@@ -14,13 +14,12 @@
 #    val = val + 1 = # длинный вариант
 #    val +=1 = # короткий вариант
 
-
 # val = 0
 
-
-
-
-
+# while val > -10:
+#     print(val)
+#     # декремент
+#     val -= 2
 
 # прерывание цикла по дополнительному условию
 
@@ -44,12 +43,12 @@
 # val = 0
 
 # while val < 20:
-    # 1 кусок кода
-#    print(val)
-#    val += 1
+# 1 кусок кода
+    # print(val)
+    # val += 1
 
-#    if val > 10:
-#       continue
+    # if val < 10:
+    #     continue
 
 
     # 2 кусок кода
@@ -102,6 +101,8 @@ t = tuple(r)
 #     print(num)
 
 # безымянная переменная
-for _ in range(5):
-    print("hello")
+# for _ in range(5):
+#     print("hello")
 
+# генератор списка
+# генератор словаря

@@ -71,3 +71,6 @@ del dict_4["a"]
 items_0 = list(dict_2.items())
 
 print(items_0)
+
+
+
