@@ -118,4 +118,18 @@ b = (-5, 15)
 
 s = euklid(a, b)
 
-print(s)
+# print(s)
+ 
+# Лямда-выражение (лямда-функция, безымянная функция)
+
+my_lambda = lambda a, b: a * b
+
+res = my_lambda(5, 3)
+
+# print(res)
+
+def func_10(f, a, b):
+    res = f(a, b)
+    print(res)
+
+func_10(lambda x, y: x ** y, 10, 3)
