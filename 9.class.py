@@ -51,13 +51,14 @@ class Dog:
 dog_1 = Dog("Sharik", 5)
 
 # print(dog_1.name, dog_1.age)
-
+ 
 # метод 
 
 class Cat_2:
-    """"""
+    """
     Класс виртуального кота
-    """"""
+    
+    """
     def __init__(self, name: str, age: int) -> None:
         self.name: str = name
         self.age = age
@@ -66,6 +67,7 @@ class Cat_2:
     # метод (атрибут-метод) - функция, принадлежащая классу
     def mur(self):
         print("Mur-mur!")
+    
     def info(self):
         text = f"Меня зовут {self.name}, мне {self.age} лет."
         print(text)
