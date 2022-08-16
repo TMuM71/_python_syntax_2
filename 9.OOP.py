@@ -3,6 +3,9 @@
 # Принцип Наследования
 
 # родительский (предковый) класс 
+from base64 import b16decode, b32decode, b32hexdecode
+from tokenize import String
+from unicodedata import name
 from xml.dom.minidom import Attr
 
 
@@ -118,6 +121,23 @@ obj_x3 = x3()
 # obj_x3.__m_1()
 
 # лазейка
-print(obj_x3._x3__attr_1)
-obj_x3._x3__m_1()
+# print(obj_x3._x3__attr_1)
+# obj_x3._x3__m_1()
+
+# Принцип Композиции (Агрегации)
+
+class Library("var books"):
+    print()
+
+class Book():
+    let_name: String
+    init = ("name: String, self.name = name")
+
+let_lib = Library()
+
+let_b1 = Book, name b1("-> Введение в программирование")
+
+let_b2 = Book, name b2("-> Вперёд к программированию!")
+
+let_b3 = Book, name b3("-> Программирование")
 
